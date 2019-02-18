@@ -1,0 +1,95 @@
+/* body {
+  font-family: 'Muli', sans-serif;
+} */
+
+.navbar {
+  margin-bottom: 4em;
+  position: relative;
+  z-index: 2;
+}
+
+.intro-text {
+  margin-top: 1.8rem;
+}
+
+.card-list {
+  text-align: center;
+}
+
+.tagline-text {
+  font-weight: normal;
+  margin-bottom: 3rem;
+  color: #7b8b8e;
+}
+
+.courses-card {
+  margin: 3% 2%;
+}
+
+.card-text {
+  text-align: left;
+  color: #7b8b8e;
+}
+
+
+
+/* JumbotronThis come from Predefined jumborton by someone else */
+
+.jumbotron {
+  position: relative;
+  overflow: hidden;
+  background-color:#000;
+  padding-top: 0;
+}
+.jumbotron video {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width:100%;
+  height:100%;
+  /*  object-fit is not supported on IE  */
+  object-fit: cover;
+  opacity:0.5;
+}
+.jumbotron .container {
+  z-index: 2;
+  position: relative;
+}
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+
+
+/* JumbotronThis come from Predefined jumborton by someone else */
